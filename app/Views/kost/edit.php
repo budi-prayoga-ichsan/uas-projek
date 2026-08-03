@@ -5,208 +5,321 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Kamar Kost</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <form action="<?= site_url('kost/kamar/update') ?>" method="post" enctype="multipart/form-data">
+<body class="bg-light">
 
-        <input type="hidden"  name="id_kost" value="<?= $kost['id_kost'] ?>">
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
 
-        <label>Kategori</label><br>
-        <select name="id_kategori">
-            <option value="">-- Pilih Kategori --</option>
+                <div class="card shadow">
+                    <div class="card-header bg-warning">
+                        <h4 class="mb-0">Edit Kamar Kost</h4>
+                    </div>
 
-            <?php foreach ($kategori as $k): ?>
-                <option
-                    value="<?= $k['id_kategori']; ?>"
-                    <?= $k['id_kategori'] == $kost['id_kategori'] ? 'selected' : '' ?>>
-                    <?= $k['nama_kategori']; ?>
-                </option>
-            <?php endforeach; ?>
-        </select>
-        <?= validation_show_error('id_kategori') ?>
+                    <div class="card-body">
 
-        <br><br>
+                        <form action="<?= site_url('kost/kamar/update') ?>" method="post" enctype="multipart/form-data">
 
+                            <input type="hidden" name="id_kost" value="<?= $kost['id_kost'] ?>">
 
-        <label>Nama Kost</label><br>
-        <input type="text" name="nama_kost" value="<?= $kost['nama_kost'] ?>">
-        <?= validation_show_error('nama_kost') ?>
-        <br><br>
+                            <div class="mb-3">
+                                <label class="form-label">Kategori</label>
+                                <select name="id_kategori" class="form-select">
+                                    <option value="">-- Pilih Kategori --</option>
 
+                                    <?php foreach ($kategori as $k): ?>
+                                        <option
+                                            value="<?= $k['id_kategori']; ?>"
+                                            <?= $k['id_kategori'] == $kost['id_kategori'] ? 'selected' : '' ?>>
+                                            <?= $k['nama_kategori']; ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                </select>
 
-        <label>Alamat</label><br>
-        <textarea name="alamat" rows="4" cols="30"><?= $kost['alamat'] ?></textarea>
-        <?= validation_show_error('alamat') ?>
-        <br><br>
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('id_kategori') ?>
+                                </div>
+                            </div>
 
+                            <div class="mb-3">
+                                <label class="form-label">Nama Kost</label>
+                                <input type="text"
+                                    name="nama_kost"
+                                    class="form-control"
+                                    value="<?= $kost['nama_kost'] ?>">
 
-        <label>Harga Sewa per Bulan</label><br>
-        <input type="number" step="any" name="harga" value="<?= $kost['harga'] ?>">
-        <?= validation_show_error('harga') ?>
-        <br><br>
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('nama_kost') ?>
+                                </div>
+                            </div>
 
+                            <div class="mb-3">
+                                <label class="form-label">Alamat</label>
+                                <textarea name="alamat"
+                                    rows="4"
+                                    class="form-control"><?= $kost['alamat'] ?></textarea>
 
-        <label>Jarak</label><br>
-        <input type="number" step="any" name="jarak" value="<?= $kost['jarak'] ?>">
-        <?= validation_show_error('jarak') ?>
-        <br><br>
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('alamat') ?>
+                                </div>
+                            </div>
 
-        <?php
-        $fasilitas = explode(',', $kost['fasilitas']);
-        ?>
-        <label>Fasilitas</label><br>
+                            <div class="mb-3">
+                                <label class="form-label">Harga Sewa per Bulan</label>
+                                <input type="number"
+                                    step="any"
+                                    name="harga"
+                                    class="form-control"
+                                    value="<?= $kost['harga'] ?>">
 
-        <input
-            type="checkbox"
-            name="fasilitas[]"
-            value="Kasur"
-            <?= in_array('Kasur', $fasilitas) ? 'checked' : '' ?>>
-        Kasur <br>
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('harga') ?>
+                                </div>
+                            </div>
 
-        <input
-            type="checkbox"
-            name="fasilitas[]"
-            value="Lemari"
-            <?= in_array('Lemari', $fasilitas) ? 'checked' : '' ?>>
-        Lemari <br>
+                            <div class="mb-3">
+                                <label class="form-label">Jarak</label>
+                                <input type="number"
+                                    step="any"
+                                    name="jarak"
+                                    class="form-control"
+                                    value="<?= $kost['jarak'] ?>">
 
-        <input
-            type="checkbox"
-            name="fasilitas[]"
-            value="AC"
-            <?= in_array('AC', $fasilitas) ? 'checked' : '' ?>>
-        AC <br>
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('jarak') ?>
+                                </div>
+                            </div>
 
-        <input
-            type="checkbox"
-            name="fasilitas[]"
-            value="Wifi"
-            <?= in_array('Wifi', $fasilitas) ? 'checked' : '' ?>>
-        Wifi <br>
+                            <?php
+                            $fasilitas = explode(',', $kost['fasilitas']);
+                            ?>
 
-        <input
-            type="checkbox"
-            name="fasilitas[]"
-            value="Kamar mandi Dalam"
-            <?= in_array('Kamar mandi Dalam', $fasilitas) ? 'checked' : '' ?>>
-        Kamar mandi Dalam
-        <?= validation_show_error('fasilitas') ?>
+                            <div class="mb-3">
+                                <label class="form-label">Fasilitas</label>
 
-        <br><br>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        name="fasilitas[]"
+                                        value="Kasur"
+                                        id="kasur"
+                                        <?= in_array('Kasur', $fasilitas) ? 'checked' : '' ?>>
+                                    <label class="form-check-label" for="kasur">Kasur</label>
+                                </div>
 
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        name="fasilitas[]"
+                                        value="Lemari"
+                                        id="lemari"
+                                        <?= in_array('Lemari', $fasilitas) ? 'checked' : '' ?>>
+                                    <label class="form-check-label" for="lemari">Lemari</label>
+                                </div>
 
-        <label>Keamanan</label><br>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        name="fasilitas[]"
+                                        value="AC"
+                                        id="ac"
+                                        <?= in_array('AC', $fasilitas) ? 'checked' : '' ?>>
+                                    <label class="form-check-label" for="ac">AC</label>
+                                </div>
 
-        <select name="keamanan">
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        name="fasilitas[]"
+                                        value="Wifi"
+                                        id="wifi"
+                                        <?= in_array('Wifi', $fasilitas) ? 'checked' : '' ?>>
+                                    <label class="form-check-label" for="wifi">Wifi</label>
+                                </div>
 
-            <option value="">-- Pilih Keamanan --</option>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        name="fasilitas[]"
+                                        value="Kamar mandi Dalam"
+                                        id="kmd"
+                                        <?= in_array('Kamar mandi Dalam', $fasilitas) ? 'checked' : '' ?>>
+                                    <label class="form-check-label" for="kmd">Kamar mandi Dalam</label>
+                                </div>
 
-            <option value="1" <?= $kost['keamanan'] == 1 ? 'selected' : '' ?>>
-                1 - Sangat Kurang
-            </option>
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('fasilitas') ?>
+                                </div>
+                            </div>
 
-            <option value="2" <?= $kost['keamanan'] == 2 ? 'selected' : '' ?>>
-                2 - Kurang
-            </option>
+                            <div class="mb-3">
+                                <label class="form-label">Keamanan</label>
 
-            <option value="3" <?= $kost['keamanan'] == 3 ? 'selected' : '' ?>>
-                3 - Cukup
-            </option>
+                                <select name="keamanan" class="form-select">
 
-            <option value="4" <?= $kost['keamanan'] == 4 ? 'selected' : '' ?>>
-                4 - Baik
-            </option>
+                                    <option value="">-- Pilih Keamanan --</option>
 
-            <option value="5" <?= $kost['keamanan'] == 5 ? 'selected' : '' ?>>
-                5 - Sangat Baik
-            </option>
+                                    <option value="1" <?= $kost['keamanan'] == 1 ? 'selected' : '' ?>>
+                                        1 - Sangat Kurang
+                                    </option>
 
-        </select>
-        <?= validation_show_error('keamanan') ?>
-        <br><br>
+                                    <option value="2" <?= $kost['keamanan'] == 2 ? 'selected' : '' ?>>
+                                        2 - Kurang
+                                    </option>
 
+                                    <option value="3" <?= $kost['keamanan'] == 3 ? 'selected' : '' ?>>
+                                        3 - Cukup
+                                    </option>
 
-        <label>Wifi</label><br>
-        <select name="wifi">
+                                    <option value="4" <?= $kost['keamanan'] == 4 ? 'selected' : '' ?>>
+                                        4 - Baik
+                                    </option>
 
-            <option value="">-- Pilih Wifi --</option>
+                                    <option value="5" <?= $kost['keamanan'] == 5 ? 'selected' : '' ?>>
+                                        5 - Sangat Baik
+                                    </option>
 
-            <option value="Ya"
-                <?= $kost['wifi'] == 'Ya' ? 'selected' : '' ?>>
-                Ya
-            </option>
+                                </select>
 
-            <option value="Tidak"
-                <?= $kost['wifi'] == 'Tidak' ? 'selected' : '' ?>>
-                Tidak
-            </option>
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('keamanan') ?>
+                                </div>
+                            </div>
 
-        </select>
-        <?= validation_show_error('wifi') ?>
-        <br><br>
+                            <div class="mb-3">
+                                <label class="form-label">Wifi</label>
 
+                                <select name="wifi" class="form-select">
 
-        <label>Ukuran Kamar</label><br>
-        <select name="ukuran_kamar">
+                                    <option value="">-- Pilih Wifi --</option>
 
-            <option value="">-- Pilih Ukuran --</option>
+                                    <option value="Ya"
+                                        <?= $kost['wifi'] == 'Ya' ? 'selected' : '' ?>>
+                                        Ya
+                                    </option>
 
-            <option value="2x3"
-                <?= $kost['ukuran_kamar'] == '2x3' ? 'selected' : '' ?>>
-                2 x 3
-            </option>
+                                    <option value="Tidak"
+                                        <?= $kost['wifi'] == 'Tidak' ? 'selected' : '' ?>>
+                                        Tidak
+                                    </option>
 
-            <option value="3x3"
-                <?= $kost['ukuran_kamar'] == '3x3' ? 'selected' : '' ?>>
-                3 x 3
-            </option>
+                                </select>
 
-            <option value="3x4"
-                <?= $kost['ukuran_kamar'] == '3x4' ? 'selected' : '' ?>>
-                3 x 4
-            </option>
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('wifi') ?>
+                                </div>
+                            </div>
 
-            <option value="4x4"
-                <?= $kost['ukuran_kamar'] == '4x4' ? 'selected' : '' ?>>
-                4 x 4
-            </option>
+                            <div class="mb-3">
+                                <label class="form-label">Ukuran Kamar</label>
 
-        </select>
-        <?= validation_show_error('ukuran_kamar') ?>
+                                <select name="ukuran_kamar" class="form-select">
 
-        <br><br>
+                                    <option value="">-- Pilih Ukuran --</option>
 
+                                    <option value="2x3"
+                                        <?= $kost['ukuran_kamar'] == '2x3' ? 'selected' : '' ?>>
+                                        2 x 3
+                                    </option>
 
-        <label>Status</label>
-        <select name="status">
+                                    <option value="3x3"
+                                        <?= $kost['ukuran_kamar'] == '3x3' ? 'selected' : '' ?>>
+                                        3 x 3
+                                    </option>
 
-            <option value="">-- Pilih Status --</option>
+                                    <option value="3x4"
+                                        <?= $kost['ukuran_kamar'] == '3x4' ? 'selected' : '' ?>>
+                                        3 x 4
+                                    </option>
 
-            <option value="Tersedia"
-                <?= $kost['status'] == 'Tersedia' ? 'selected' : '' ?>>
-                Tersedia
-            </option>
+                                    <option value="4x4"
+                                        <?= $kost['ukuran_kamar'] == '4x4' ? 'selected' : '' ?>>
+                                        4 x 4
+                                    </option>
 
-            <option value="Penuh"
-                <?= $kost['status'] == 'Penuh' ? 'selected' : '' ?>>
-                Penuh
-            </option>
+                                </select>
 
-        </select>
-        <?= validation_show_error('status') ?>
-        <br><br>
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('ukuran_kamar') ?>
+                                </div>
+                            </div>
 
-        <label>Foto</label>
-        <input type="file" name="foto">
-        <?= validation_show_error('foto') ?>
+                            <div class="mb-3">
+                                <label class="form-label">Status</label>
 
-        <input type="hidden" name="foto_lama" value="<?= $kost['foto'] ?>">
+                                <select name="status" class="form-select">
 
-        <br><br>
+                                    <option value="">-- Pilih Status --</option>
 
-        <button type="submit">Simpan</button>
-    </form>
+                                    <option value="Tersedia"
+                                        <?= $kost['status'] == 'Tersedia' ? 'selected' : '' ?>>
+                                        Tersedia
+                                    </option>
+
+                                    <option value="Penuh"
+                                        <?= $kost['status'] == 'Penuh' ? 'selected' : '' ?>>
+                                        Penuh
+                                    </option>
+
+                                </select>
+
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('status') ?>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Foto</label>
+
+                                <input type="file" name="foto" class="form-control">
+
+                                <div class="text-danger mt-1">
+                                    <?= validation_show_error('foto') ?>
+                                </div>
+
+                                <input type="hidden" name="foto_lama" value="<?= $kost['foto'] ?>">
+                            </div>
+
+                            <?php if (!empty($kost['foto'])): ?>
+                                <div class="mb-3">
+                                    <label class="form-label">Foto Saat Ini</label><br>
+                                    <img src="<?= base_url('uploads/' . $kost['foto']) ?>"
+                                         class="img-thumbnail"
+                                         width="150"
+                                         alt="Foto Kost">
+                                </div>
+                            <?php endif; ?>
+
+                            <button type="submit" class="btn btn-primary">
+                                Simpan
+                            </button>
+
+                            <a href="<?= site_url('/kost/kamar') ?>" class="btn btn-secondary">
+                                Batal
+                            </a>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
