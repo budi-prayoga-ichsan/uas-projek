@@ -20,5 +20,6 @@
 
     <br><br>
     <a href="<?= site_url('/rekomendasi') ?>">Rekomendasi</a>
+    <a href="<?= site_url('/rekomendasi') ?>">input baru</a>
 </body>
 </html>
