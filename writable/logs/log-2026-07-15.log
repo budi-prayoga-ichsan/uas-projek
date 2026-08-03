@@ -1,0 +1,28 @@
+CRITICAL - 2026-07-15 09:00:58 --> ErrorException: Undefined variable $spek
+[Method: GET, Route: produk]
+in APPPATH\Views\produk\index.php on line 1.
+ 1 APPPATH\Views\produk\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spek', 'C:\\xampp\\htdocs\\belajar-ci4\\app\\Views\\produk\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\belajar-ci4\\app\\Views\\produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('produk/index', [], true)
+ 5 APPPATH\Controllers\Produk.php(13): view('produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Produk->daftar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-15 09:04:27 --> ErrorException: Undefined variable $nama
+[Method: GET, Route: produk]
+in APPPATH\Views\produk\index.php on line 1.
+ 1 APPPATH\Views\produk\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\belajar-ci4\\app\\Views\\produk\\index.php', 1)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\belajar-ci4\\app\\Views\\produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('produk/index', [], true)
+ 5 APPPATH\Controllers\Produk.php(13): view('produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Produk->daftar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
