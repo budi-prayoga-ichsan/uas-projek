@@ -5,73 +5,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kriteria Kost</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <a href="<?= site_url('/dashboard') ?>">Dashbord</a>
-    <br>
-    <a href="<?= site_url('/kriteria/create') ?>">Tambah Kriteria</a>
-    <br><br>
-    <?php if (session()->getFlashdata('success')): ?>
-        <p><?= session()->getFlashdata('success') ?></p>
-    <?php endif; ?>
-    <table border="1">
+<body class="bg-light">
 
-        <tr>
+    <div class="container mt-4">
 
-            <th>No</th>
+        <h2 class="mb-4">Data Kriteria Kost</h2>
 
-            <th>Kode</th>
+        <a href="<?= site_url('/dashboard') ?>" class="btn btn-secondary mb-3">
+            Dashboard
+        </a>
 
-            <th>Nama</th>
+        <a href="<?= site_url('/kriteria/create') ?>" class="btn btn-primary mb-3">
+            Tambah Kriteria
+        </a>
 
-            <th>Atribut</th>
+        <?php if (session()->getFlashdata('success')): ?>
+            <div class="alert alert-success">
+                <?= session()->getFlashdata('success') ?>
+            </div>
+        <?php endif; ?>
 
-            <th>Bobot</th>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover align-middle">
 
-            <th>Aksi</th>
+                <thead class="table-dark">
+                    <tr>
 
-        </tr>
+                        <th width="60">No</th>
 
-        <?php
+                        <th>Kode</th>
 
-        $no = 1;
+                        <th>Nama</th>
 
-        foreach ($kriteria as $k):
+                        <th>Atribut</th>
 
-        ?>
+                        <th>Bobot</th>
 
-            <tr>
+                        <th width="180">Aksi</th>
 
-                <td><?= $no++; ?></td>
+                    </tr>
+                </thead>
 
-                <td><?= $k['kode']; ?></td>
+                <tbody>
 
-                <td><?= $k['nama_kriteria']; ?></td>
+                    <?php
 
-                <td><?= $k['atribut']; ?></td>
+                    $no = 1;
 
-                <td><?= $k['bobot_default']; ?></td>
+                    foreach ($kriteria as $k):
 
-                <td>
+                    ?>
 
-                    <a href="<?= site_url('kriteria/edit/' . $k['id_kriteria']) ?>">
-                        Edit
-                    </a> |
+                        <tr>
 
-                    <a href="<?= site_url('kriteria/delete/' . $k['id_kriteria']) ?>" onclick="return confirma('Yakin Hapus?')">
-                        Hapus
-                    </a>
+                            <td><?= $no++; ?></td>
 
-                </td>
+                            <td><?= $k['kode']; ?></td>
 
-            </tr>
+                            <td><?= $k['nama_kriteria']; ?></td>
 
-        <?php endforeach; ?>
+                            <td><?= $k['atribut']; ?></td>
 
-    </table>
+                            <td><?= $k['bobot_default']; ?></td>
 
-    <?= $pager->links(); ?>
+                            <td>
+
+                                <a href="<?= site_url('kriteria/edit/' . $k['id_kriteria']) ?>"
+                                    class="btn btn-warning btn-sm">
+                                    Edit
+                                </a>
+
+                                <a href="<?= site_url('kriteria/delete/' . $k['id_kriteria']) ?>"
+                                    class="btn btn-danger btn-sm"
+                                    onclick="return confirma('Yakin Hapus?')">
+                                    Hapus
+                                </a>
+
+                            </td>
+
+                        </tr>
+
+                    <?php endforeach; ?>
+
+                </tbody>
+
+            </table>
+        </div>
+
+        <div class="mt-3">
+            <?= $pager->links(); ?>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
