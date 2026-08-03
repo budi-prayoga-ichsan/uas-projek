@@ -1,45 +1,75 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rekomendasi Kost</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
 
-    <h2>Cari Rekomendasi Kost</h2>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
 
-    <form action="<?= site_url('rekomendasi/proses') ?>" method="post">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Cari Rekomendasi Kost</h4>
+                    </div>
 
-        <?php foreach ($kriteria as $k): ?>
+                    <div class="card-body">
 
-            <label><?= $k['nama_kriteria']; ?></label><br>
+                        <form action="<?= site_url('rekomendasi/proses') ?>" method="post">
 
-            <select name="bobot[<?= $k['id_kriteria']; ?>]">
+                            <?php foreach ($kriteria as $k): ?>
 
-                <option value="">-- Pilih Bobot --</option>
+                                <div class="mb-3">
 
-                <option value="1">1 - Sangat Tidak Penting</option>
+                                    <label class="form-label">
+                                        <?= $k['nama_kriteria']; ?>
+                                    </label>
 
-                <option value="2">2 - Tidak Penting</option>
+                                    <select name="bobot[<?= $k['id_kriteria']; ?>]" class="form-select">
 
-                <option value="3">3 - Cukup Penting</option>
+                                        <option value="">-- Pilih Bobot --</option>
 
-                <option value="4">4 - Penting</option>
+                                        <option value="1">1 - Sangat Tidak Penting</option>
 
-                <option value="5">5 - Sangat Penting</option>
+                                        <option value="2">2 - Tidak Penting</option>
 
-            </select>
+                                        <option value="3">3 - Cukup Penting</option>
 
-            <br><br>
+                                        <option value="4">4 - Penting</option>
 
-        <?php endforeach; ?>
+                                        <option value="5">5 - Sangat Penting</option>
 
-        <button type="submit">
-            Cari Rekomendasi
-        </button>
+                                    </select>
 
-    </form>
+                                </div>
+
+                            <?php endforeach; ?>
+
+                            <button type="submit" class="btn btn-primary">
+                                Cari Rekomendasi
+                            </button>
+
+                            <a href="<?= site_url('/dashboard') ?>" class="btn btn-secondary">
+                                Kembali
+                            </a>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
