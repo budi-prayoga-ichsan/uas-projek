@@ -37,3 +37,5 @@ $routes->get('/kriteria/delete/(:num)', 'Kriteria::delete/$1', ['filter' => 'adm
 
 $routes->get('/rekomendasi', 'Rekomendasi::index', ['filter' => 'auth']);
 $routes->post('/rekomendasi/proses', 'Rekomendasi::proses', ['filter' => 'auth']);
+
+$routes->get('/rekomendasi/hasil/(:num)', 'Rekomendasi::hasil/$1', ['filter' => 'auth']);

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -28,10 +28,23 @@
                 Dashboard
             </a>
 
-            <a href="<?= site_url('/kost/kamar/create') ?>" class="btn btn-primary">
-                Tambah Kamar Kost
-            </a>
+            <?php if (session()->get('role') === 'admin'): ?>
+                <a href="<?= site_url('/kost/kamar/create') ?>" class="btn btn-primary">
+                    Tambah Kamar Kost
+                </a>
+            <?php endif; ?>
         </div>
+        <form action="<?= site_url('/kost/kamar') ?>" method="get">
+            <input
+                type="text"
+                class="form-control"
+                placeholder="Cari nama mahasiswa..."
+                name="keyword"
+                value="<?= isset($_GET['keyword']) ? $_GET['keyword'] : '' ?>">
+            <button class="btn btn-outline-primary" type="submit">
+                Cari
+            </button>
+        </form>
 
         <div class="table-responsive">
             <table class="table table-bordered table-striped table-hover align-middle">
@@ -42,21 +55,28 @@
                         <th>Kategori</th>
                         <th>Alamat</th>
                         <th>Harga</th>
-                        <th>Jarak</th>
+                        <th>Jarak (Meter)</th>
                         <th>Fasilitas</th>
                         <th>Keamanan</th>
                         <th>Wifi</th>
                         <th>Ukuran Kamar</th>
                         <th>Status</th>
                         <th>Foto</th>
-                        <th width="170">Aksi</th>
+                        <?php if (session()->get('role') === 'admin'): ?>
+                            <th width="170">Aksi</th>
+                        <?php endif; ?>
                     </tr>
                 </thead>
 
                 <tbody>
 
                     <?php
-                    $no = 1;
+
+                    $currentPage = $pager->getCurrentPage();
+                    $perPager = 5;
+                    $no = ($currentPage - 1) * $perPager + 1;
+
+
                     foreach ($kost as $k) :
                     ?>
 
@@ -77,24 +97,26 @@
                                 </span>
                             </td>
                             <td>
-                                <img src="<?= base_url('uploads/'. $k['foto']) ?>"
-                                     alt="Kost mawar"
-                                     class="img-thumbnail"
-                                     width="100">
+                                <img src="<?= base_url('uploads/' . $k['foto']) ?>"
+                                    alt="Kost mawar"
+                                    class="img-thumbnail"
+                                    width="100%">
                             </td>
+                            <?php if (session()->get('role') === 'admin'): ?>
+                                <td>
+                                    <a href="<?= site_url('/kost/kamar/edit/' . $k['id_kost']) ?>"
+                                        class="btn btn-warning btn-sm">
+                                        Edit
+                                    </a>
 
-                            <td>
-                                <a href="<?= site_url('/kost/kamar/edit/'. $k['id_kost']) ?>"
-                                   class="btn btn-warning btn-sm">
-                                    Edit
-                                </a>
+                                    <a href="<?= site_url('/kost/kamar/delete/' . $k['id_kost']) ?>"
+                                        class="btn btn-danger btn-sm"
+                                        onclick="return confirm('Yakin')">
+                                        Delete
+                                    </a>
+                                </td>
+                            <?php endif; ?>
 
-                                <a href="<?= site_url('/kost/kamar/delete/'. $k['id_kost']) ?>"
-                                   class="btn btn-danger btn-sm"
-                                   onclick="return confirm('Yakin')">
-                                    Delete
-                                </a>
-                            </td>
                         </tr>
 
                     <?php endforeach; ?>
@@ -104,8 +126,8 @@
             </table>
         </div>
 
-        <div class="mt-3 d-flex justify-content-center">
-            <?= $pager->links(); ?>
+        <div class="d-flex justify-content-end mt-3">
+            <?= $pager->links('default', 'bootstrap_pagination') ?>
         </div>
 
     </div>
@@ -115,72 +137,4 @@
 
 </body>
 
-</html><!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kost</title>
-</head>
-
-<body>
-    <?php $success = session()->getFlashdata('success') ?>
-    <?php if ($success) : ?>
-        <p><?= $success ?></p>
-    <?php endif; ?> <br><br>
-    <a href="<?= site_url('/dashboard') ?>">Dashboard</a><br><br>
-    <a href="<?= site_url('/kost/kamar/create') ?>">Tambah Kamar Kost</a><br>
-    <table border="1" cellpadding="10">
-        <tr>
-            <th>No</th>
-            <th>Nama Kost</th>
-            <th>Kategori</th>
-            <th>Alamat</th>
-            <th>Harga</th>
-            <th>Jarak</th>
-            <th>Fasilitas</th>
-            <th>Keamanan</th>
-            <th>Wifi</th>
-            <th>Ukuran Kamar</th>
-            <th>Status</th>
-            <th>Foto</th>
-            <th>Aksi</th>
-        </tr>
-
-        <?php
-        $no = 1;
-        foreach ($kost as $k) :
-        ?>
-
-            <tr>
-                <td><?= $no++; ?></td>
-                <td><?= $k['nama_kost']; ?></td>
-                <td><?= $k['nama_kategori']; ?></td>
-                <td><?= $k['alamat']; ?></td>
-                <td><?= $k['harga']; ?></td>
-                <td><?= $k['jarak']; ?></td>
-                <td><?= $k['fasilitas']; ?></td>
-                <td><?= $k['keamanan']; ?></td>
-                <td><?= $k['wifi']; ?></td>
-                <td><?= $k['ukuran_kamar']; ?></td>
-                <td><?= $k['status']; ?></td>
-                <td>
-                    <img src="<?= base_url('uploads/'. $k['foto']) ?>" alt="Kost mawar">
-                </td>
-
-                <td>
-                    <a href="<?= site_url('/kost/kamar/edit/'. $k['id_kost']) ?>">Edit</a> |
-                    <a href="<?= site_url('/kost/kamar/delete/'. $k['id_kost']) ?>" onclick="return confirm('Yakin')">Delete</a> 
-                </td>
-            </tr>
-
-
-        <?php endforeach; ?>
-
-    </table>
-
-    <?= $pager->links(); ?>
-</body>
-
-</html>
+</html

@@ -9,8 +9,12 @@ class Kriteria extends BaseController
     public function index()
     {
         $model = new KriteriaModel();
+        $keyword = $this->request->getGet('keyword');
+        if(!empty($keyword)){
+            $model->like('nama_kriteria', $keyword);
+        }
 
-        $data['kriteria'] = $model->paginate(5,'kriteria');
+        $data['kriteria'] = $model->paginate(5);
         $data['pager'] = $model->pager;
 
         return view('kriteria/index', $data);

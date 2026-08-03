@@ -83,7 +83,7 @@
                             </div>
 
                             <div class="mb-3">
-                                <label class="form-label">Jarak</label>
+                                <label class="form-label">Jarak (Meter)</label>
                                 <input type="number"
                                     step="any"
                                     name="jarak"

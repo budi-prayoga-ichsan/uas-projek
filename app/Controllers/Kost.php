@@ -12,6 +12,10 @@ class Kost extends BaseController
     public function index()
     {
         $model = new KostModel();
+        $keyword = $this->request->getGet('keyword');
+        if(!empty($keyword)){
+            $model->like('nama_kost', $keyword);
+        }
 
         $data['kost'] = $model
             ->select('kost.*, kategori_kost.nama_kategori')
@@ -308,7 +312,7 @@ class Kost extends BaseController
         if (!empty($data['foto']) && file_exists(FCPATH . 'uploads/' . $data['foto'])) {
             unlink(FCPATH . 'uploads/' . $data['foto']);
         }
-        
+
         $nilaiModel = new NilaiAlternatifModel();
 
         $nilaiModel->where('id_kost', $id)->delete();
@@ -346,6 +350,35 @@ class Kost extends BaseController
 
                 case 'Wifi':
                     $nilai = ($kost['wifi'] == 'Ya') ? 1 : 0;
+                    break;
+
+                case 'Fasilitas':
+                    $nilai = count(explode(',', $kost['fasilitas']));
+                    break;
+
+                case 'Ukuran Kamar':
+
+                    switch ($kost['ukuran_kamar']) {
+                        case '2x3':
+                            $nilai = 1;
+                            break;
+
+                        case '3x3':
+                            $nilai = 2;
+                            break;
+
+                        case '3x4':
+                            $nilai = 3;
+                            break;
+
+                        case '4x4':
+                            $nilai = 4;
+                            break;
+
+                        default:
+                            $nilai = 0;
+                    }
+
                     break;
 
                 default:

@@ -1,5 +1,6 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body class="bg-light">
 
     <div class="container mt-5">
@@ -18,7 +20,7 @@
 
             <div class="card-body">
                 <p class="fs-5">
-                    Selamat datang, <strong><?= session()->get('nama')?></strong>
+                    Selamat datang, <strong><?= session()->get('nama') ?></strong>
                 </p>
 
                 <a href="<?= site_url('logout') ?>" class="btn btn-danger">
@@ -26,18 +28,20 @@
                 </a>
 
                 <hr>
-
                 <div class="d-grid gap-3">
-                    <a href="<?= site_url('kost/kategori') ?>" class="btn btn-outline-primary">
-                        Kost Kategori
-                    </a>
+                    <?php if (session()->get('role') === 'admin'): ?>
+                        <a href="<?= site_url('kost/kategori') ?>" class="btn btn-outline-primary">
+                            Kost Kategori
+                        </a>
+
+                        <a href="<?= site_url('/kriteria') ?>" class="btn btn-outline-warning">
+                            Kriteria Kost
+                        </a>
+
+                    <?php endif; ?>
 
                     <a href="<?= site_url('/kost/kamar') ?>" class="btn btn-outline-success">
                         Kamar Kost
-                    </a>
-
-                    <a href="<?= site_url('/kriteria') ?>" class="btn btn-outline-warning">
-                        Kriteria Kost
                     </a>
 
                     <a href="<?= site_url('/rekomendasi') ?>" class="btn btn-outline-info">
@@ -52,4 +56,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>

@@ -11,7 +11,6 @@
 </head>
 
 <body class="bg-light">
-
     <div class="container mt-4">
 
         <h2 class="mb-4">Data Kategori Kost</h2>
@@ -24,11 +23,23 @@
             Tambah Kategori Kost
         </a>
 
-        <?php if(session()->getFlashdata('success')): ?>
+
+        <?php if (session()->getFlashdata('success')): ?>
             <div class="alert alert-success">
                 <?= session()->getFlashdata('success') ?>
             </div>
         <?php endif; ?>
+        <form action="<?= site_url('/kost/kategori') ?>" method="get">
+            <input
+                type="text"
+                class="form-control"
+                placeholder="Cari nama mahasiswa..."
+                name="keyword"
+                value="<?= isset($_GET['keyword']) ? $_GET['keyword'] : '' ?>">
+            <button class="btn btn-outline-primary" type="submit">
+                Cari
+            </button>
+        </form>
 
         <div class="table-responsive">
             <table class="table table-bordered table-striped table-hover align-middle">
@@ -68,8 +79,8 @@
             </table>
         </div>
 
-        <div class="mt-3">
-            , <?= $pager->links() ?>
+        <div class="d-flex justify-content-end mt-3">
+            <?= $pager->links('default', 'bootstrap_pagination') ?>
         </div>
 
     </div>

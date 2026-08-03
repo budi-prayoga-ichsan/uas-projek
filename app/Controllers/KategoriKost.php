@@ -9,7 +9,10 @@ class KategoriKost extends BaseController
     public function index()
     {
         $model = new KategoriKostModel();
-
+        $keyword = $this->request->getGet('keyword');
+        if(!empty($keyword)){
+            $model->like('nama_kategori', $keyword);
+        }
         $data['kategoriKost'] = $model->paginate(5);
         $data['pager'] = $model->pager;
         return view('kategoriKost/index', $data);

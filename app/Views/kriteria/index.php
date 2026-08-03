@@ -29,6 +29,17 @@
                 <?= session()->getFlashdata('success') ?>
             </div>
         <?php endif; ?>
+        <form action="<?= site_url('/kriteria') ?>" method="get">
+            <input
+                type="text"
+                class="form-control"
+                placeholder="Cari nama mahasiswa..."
+                name="keyword"
+                value="<?= isset($_GET['keyword']) ? $_GET['keyword'] : '' ?>">
+            <button class="btn btn-outline-primary" type="submit">
+                Cari
+            </button>
+        </form>
 
         <div class="table-responsive">
             <table class="table table-bordered table-striped table-hover align-middle">
@@ -55,7 +66,12 @@
 
                     <?php
 
-                    $no = 1;
+
+                    $currentPage = $pager->getCurrentPage();
+                    $perPager = 5;
+                    $no = ($currentPage - 1) * $perPager + 1;
+
+
 
                     foreach ($kriteria as $k):
 
@@ -98,7 +114,7 @@
         </div>
 
         <div class="d-flex justify-content-end mt-3">
-            <?= $pager->links('kriteria', 'bootstrap_pagination') ?>
+            <?= $pager->links('default', 'bootstrap_pagination') ?>
         </div>
 
     </div>
