@@ -63,3 +63,1143 @@ DEBUG - 2026-08-03 05:54:59 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2026-08-03 05:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-08-03 05:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-08-03 05:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:39:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CodeIgniter\Pager\Views\bootstrap_full.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CodeIgniter\\Pager\\Views\\bootstrap_full.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('CodeIgniter\\Pager\\Views\\bootstrap_full')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:44:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CodeIgniter\Pager\Views\bootstrap_full.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CodeIgniter\\Pager\\Views\\bootstrap_full.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('CodeIgniter\\Pager\\Views\\bootstrap_full')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:50:01 --> TypeError: CodeIgniter\Pager\Pager::links(): Argument #1 ($group) must be of type string, null given, called in D:\code\htdocs-xampp\uas-projek\app\Views\kriteria\index.php on line 101
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 83.
+ 1 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links(null, 'bootstrap_full')
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:50:02 --> TypeError: CodeIgniter\Pager\Pager::links(): Argument #1 ($group) must be of type string, null given, called in D:\code\htdocs-xampp\uas-projek\app\Views\kriteria\index.php on line 101
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 83.
+ 1 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links(null, 'bootstrap_full')
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:50:03 --> TypeError: CodeIgniter\Pager\Pager::links(): Argument #1 ($group) must be of type string, null given, called in D:\code\htdocs-xampp\uas-projek\app\Views\kriteria\index.php on line 101
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 83.
+ 1 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links(null, 'bootstrap_full')
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:50:03 --> TypeError: CodeIgniter\Pager\Pager::links(): Argument #1 ($group) must be of type string, null given, called in D:\code\htdocs-xampp\uas-projek\app\Views\kriteria\index.php on line 101
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 83.
+ 1 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links(null, 'bootstrap_full')
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:50:03 --> TypeError: CodeIgniter\Pager\Pager::links(): Argument #1 ($group) must be of type string, null given, called in D:\code\htdocs-xampp\uas-projek\app\Views\kriteria\index.php on line 101
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 83.
+ 1 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links(null, 'bootstrap_full')
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:50:04 --> TypeError: CodeIgniter\Pager\Pager::links(): Argument #1 ($group) must be of type string, null given, called in D:\code\htdocs-xampp\uas-projek\app\Views\kriteria\index.php on line 101
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 83.
+ 1 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links(null, 'bootstrap_full')
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:50:04 --> TypeError: CodeIgniter\Pager\Pager::links(): Argument #1 ($group) must be of type string, null given, called in D:\code\htdocs-xampp\uas-projek\app\Views\kriteria\index.php on line 101
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 83.
+ 1 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links(null, 'bootstrap_full')
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 07:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:53:57 --> ErrorException: Undefined variable $pagerGroup
+[Method: GET, Route: kriteria]
+in APPPATH\Views\Pager\bootstrap_full.php on line 3.
+ 1 APPPATH\Views\Pager\bootstrap_full.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pagerGroup', 'D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\Pager\\bootstrap_full.php', 3)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\Pager\\bootstrap_full.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('Pager/bootstrap_full')
+ 5 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 6 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 7 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 8 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+10 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:56:50 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:57:59 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:00 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:00 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:01 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:01 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:01 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:01 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:02 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:02 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:02 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:03 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:03 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:03 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:03 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:03 --> CodeIgniter\Pager\Exceptions\PagerException: "bootstrap_full" is not a valid Pager template.
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_full')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_full')
+ 3 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('default', 'bootstrap_full')
+ 4 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 7 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('mahasiswa', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('mahasiswa', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('mahasiswa', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('mahasiswa', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('mahasiswa', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('mahasiswa', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('mahasiswa', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('mahasiswa', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('mahasiswa', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('mahasiswa', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:58:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:59:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:59:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:59:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:59:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:59:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:59:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:59:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:59:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 07:59:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:01:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-03 08:02:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Pagers\bootstrap_pagination.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pagers\\bootstrap_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\Pagers\\bootstrap_pagination')
+ 3 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kriteria', 'bootstrap_pagination')
+ 4 APPPATH\Views\kriteria\index.php(101): CodeIgniter\Pager\Pager->links('kriteria', 'bootstrap_pagination')
+ 5 SYSTEMPATH\View\View.php(240): include('D:\\code\\htdocs-xampp\\uas-projek\\app\\Views\\kriteria\\index.php')
+ 6 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/index', [], true)
+ 8 APPPATH\Controllers\Kriteria.php(16): view('kriteria/index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-08-03 08:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 08:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 08:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 08:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-03 08:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

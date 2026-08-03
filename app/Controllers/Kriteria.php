@@ -10,7 +10,7 @@ class Kriteria extends BaseController
     {
         $model = new KriteriaModel();
 
-        $data['kriteria'] = $model->paginate(5);
+        $data['kriteria'] = $model->paginate(5,'kriteria');
         $data['pager'] = $model->pager;
 
         return view('kriteria/index', $data);
