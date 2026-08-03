@@ -55,7 +55,7 @@
                         <th>Kategori</th>
                         <th>Alamat</th>
                         <th>Harga</th>
-                        <th>Jarak (Meter)</th>
+                        <th>Jarak (Kilometer)</th>
                         <th>Fasilitas</th>
                         <th>Keamanan</th>
                         <th>Wifi</th>
